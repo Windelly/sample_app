@@ -14,6 +14,7 @@ group :test do
  gem 'capybara', '2.1.0'
  # Uncomment these lines on Linux.
  gem 'libnotify', '0.8.0'
+ gem 'zip'
 end
 
 gem 'sass-rails', '4.0.0'
@@ -22,6 +23,7 @@ gem 'coffee-rails', '4.0.0'
 gem 'jquery-rails', '2.2.1'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
+
 
 group :doc do
 	gem 'sdoc', '0.3.20', require: false
